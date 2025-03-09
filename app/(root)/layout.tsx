@@ -8,6 +8,7 @@ const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
       <StreamVideoProvider>{children}</StreamVideoProvider>
     </main>
   );
+  
 };
 
 export default RootLayout;
